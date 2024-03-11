@@ -9,18 +9,22 @@ public class TriangleUtilities {
         }
         return star.toString();
     }
+
     public static String getRow(int numberOfStars) {
         StringBuilder rows = new StringBuilder();
-
         for (int i = 0; i < numberOfStars; i++) {
             rows.append("*");
-
+        }
             return rows.toString();
         }
 
-        public static String getSmallTriangle() {
-            return }
-    }
 
-        public static String getLargeTriangle() {return null}
+        public static String getSmallTriangle () {
+            return null;
+        }
+
+
+        public static String getLargeTriangle () {
+            return null;
+        }
     }
